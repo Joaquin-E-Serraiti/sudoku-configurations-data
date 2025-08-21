@@ -9,17 +9,17 @@ This is a completed project in which I learnt the basics about databases and dat
   
 ## What I did
 > [!IMPORTANT]
-> This project is based on this article where I classificated many Sudoku patterns and transformations, and on this tool I created to analyze those patterns. Reading the article will help to understand better what is being analyzed.
-- I generated 10000 random sudoku configurations using a tool I developed.
+> This project is based on [this article](https://github.com/Joaquin-E-Serraiti/jes-sudoku-lab/blob/main/Classification%20of%20Sudoku%20Patterns%20and%20Transformations.pdf) where I classificated many Sudoku patterns, and on [this tool](https://github.com/Joaquin-E-Serraiti/jes-sudoku-lab) I created to analyze those patterns. Reading the article will help understand better what is being analyzed on this project.
+- I generated 10000 random sudoku configurations using `sudokuLab.py`, a tool I developed.
 - With that tool, I also analyzed the patterns of each configuration and obtained relevant data.
-- Using SQLite, I created a database containing all generated configurations along with the data from the analysis of their patterns.
-- I converted the data into a CSV file using Pandas, to import it into Power BI.
+- Using SQLite, I created a database (`sudokuConfigurations.db`) containing all generated configurations along with the data from the analysis of their patterns (`databaseCreation.py`).
+- I converted the data into a CSV file (`sudoku_configurations.csv`) using Pandas, to import it into Power BI.
 - With Power BI, I created reports / charts to visualize the relationships between the configurations and compare their data.
   
 ## Charts
 Here is an example with only 10 configurations:
 
-![chart_1](https://github.com/user-attachments/assets/a2f2750a-8662-42cb-9c56-381755f4b6d9)
+![chart_1](/chart_1.jpg)
 
 In the X axis are the configurations and in the Y axis are the proximity values of the IBPU (Intra-Box Positional Uniqueness), IBPA (Intra-Box Positional Alignment) and TDC (Triplet Digit Consistency) patterns, expressed in percentages.
 
@@ -27,15 +27,15 @@ The following charts show the values of all 10000 configurations.
 
 Configurations ordered by their IBPA proximity values (blue line), in ascending order:
 
-![chart_2](https://github.com/user-attachments/assets/d5615a7d-ce7f-4440-9586-336bd3fe4636)
+![chart_2](/chart_2.jpg)
 
 Configurations ordered by their TDC proximity values (orange line), in ascending order:
 
-![chart_3](https://github.com/user-attachments/assets/be17a23d-1ce7-4fbd-8670-8ca0f7dd2c71)
+![chart_3](/chart_3.jpg)
 
 Configurations ordered by their IBPU proximity values (light blue line), in ascending order:
 
-![chart_4](https://github.com/user-attachments/assets/3ed9a12c-3642-4b11-aa3f-f0a0060ece4d)
+![chart_4](/chart_4.jpg)
 
 ## Conclusions based on the charts
 
