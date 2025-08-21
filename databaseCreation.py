@@ -102,3 +102,4 @@ def convertToCSV(tableName="sudoku_configurations", chunkSize=2000):
 
 conn.commit()
 conn.close()
+
