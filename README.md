@@ -1,5 +1,5 @@
 # Sudoku Configurations Data
-This is a completed project in which I learnt the basics about databases and data analysis tools. The goal of this project was to explore patterns in randomly generated Sudoku configurations and practice data analysis.
+This is a completed project in which I learned the basics about databases and data analysis tools. The goal of this project was to explore patterns in randomly generated Sudoku configurations and practice data analysis.
 
 ### Technologies utilized:
 -	Python
@@ -43,7 +43,7 @@ One thing I noticed is that the values for TDC proximity (orange line) are, over
 
 Another thing I noticed is that, for all configurations, the proximity values of the IBPU pattern tend to lie in a similar level as the proximity values of the IBPA pattern. In contrast, the TDC pattern proximity tends to be much lower.
 
-## What I learnt by doing this project
+## What I learned by doing this project
 - The basics on relational databases and how they work.
 - The Structured Query Language (SQL).
 - How to create and query data bases with SQLite.
